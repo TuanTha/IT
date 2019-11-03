@@ -1,0 +1,57 @@
+
+#oi{
+    overflow: hidden;
+}
+
+
+#it {
+    animation-name: opc;
+    animation-duration: 21s;
+    animation-iteration-count: 1;
+    
+}
+    
+    
+#IMAGEM {
+    margin-left: 20%;
+    margin-top: 100%;
+    width: 100%;
+    position: absolute;
+}
+#balao{
+   width: 100%;
+    margin-left: 38.5%;
+   padding-top: 85%;
+    position: relative;
+}
+#balao1{
+    width: 100%;
+    margin-left: 38.5%;
+   padding-top: 85%;
+    position: relative;
+}
+
+#balao{
+    animation-name: bl;
+    animation-duration: 20s;
+    animation-iteration-count: 1;
+}
+
+@keyframes opc {
+ from {
+     opacity: 0;
+ }
+ to {
+     opacity: 1;
+ }
+}
+
+@keyframes bl {
+   from {
+    transform: translateY(0px);
+   }
+   to {
+     transform: translateY(-4000px);
+   }
+    }
+
